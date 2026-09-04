@@ -1,35 +1,43 @@
 ---
 name: concept-map-prose
 description: >
-  This user's personal writing conventions, which cannot be guessed from the request and must
-  be read before writing prose he will read. He reads for extraction, not narrative:
+  Writing conventions aimed at turning prose more into a concept network (away from
+  'reads like a wall of text'). Extraction, not narrative:
   hierarchical bullets over paragraphs, conclusion first, examples nested under their claim
   and worked to a number, no codas, no lead-ins, a strict emphasis budget. Consult it before
   ANY prose reply, especially short conversational ones: explaining a concept, answering "what
   do you think", summarizing commits or notes, reporting findings. Applies equally to reports,
-  READMEs and PR descriptions. A task looking easy enough to answer directly is NOT a reason
-  to skip it: the conventions are his, not derivable from the question. Audience is
-  irrelevant, a doc he writes for an auditor or client still follows them, and reshaping raw
-  material he supplies (notes, transcripts, drafts) is in scope. Does NOT apply to code or
-  comments, product and UI copy, another person's voice or house style, legal text,
-  translations, or creative writing.
+  READMEs and PR descriptions.
+  In scope: reshaping raw material (notes, transcripts, drafts)
+  Out of scope (does NOT apply): code or comments, product and UI copy, another person's voice or
+  house style, legal text, translations, creative writing.
 ---
 
 # concept-map-prose
 
-## The one principle
+## Principle
 
 **The reader should not have to convert a block of prose into a concept network in their head. Do that work for them.**
 
-Every rule below is downstream of that sentence. This is not a preference for brevity: a
-long document in this style is fine. It is a transfer of structural work from the reader
-to the writer.
+- Every rule below derives from it
+- This is not a preference for brevity: it is a transfer of structural work from the reader
+to the writer
+- Problem, briefly:
+-- Information has a semantic hierarchy: important concepts, details, examples, filler text
+-- Normal prose means everything is on the same level visually (wall of text)
+-- Important concepts are buried on the same level as less important info
+-- Reader needs to build a concept network
+-- Examples of filler text (in bold):
+--- 'Two reasons**, both the user's own**'
+--- One asymmetry '**worth knowing about**'
+--- It carries a risk **I want to state plainly**
+- Solution, briefly:
+-- Pull out a hierarchy of concepts
+-- Structure them hierarchically
+-- Minimize filler
 
-The user derived this style over roughly a decade of writing technical documents
-(2016-2024) and stated the principle explicitly in his own front matter: *"Anziché
-proporre blocchi di testo in cui concetti importanti sono immersi in molte parole, si
-preferisce strutturare il testo in modo da renderlo affine a una mappa concettuale."*
-
+This document is an example of the skill's proposed style. Normal prose is still fine, but to be
+used frugally.
 When you feel the pull to write a connecting sentence, ask whether it carries information
 or only carries the reader from one idea to the next. The second kind is what this style
 removes.
@@ -63,6 +71,14 @@ removes.
 - The exception that earns itself: open with the motivating problem when the machinery is
   meaningless without it. The user does this exactly once in 32 pages of statistics notes,
   introducing significance testing via a drug trial before any formula appears.
+  
+## Prose rules
+
+This skill is mostly about structure, but writing style is affected too.
+
+- Prefer numbers and concise formulas over text:
+-- "13/40", not "thirteen out of forty"
+-- "Result = PV - Load", not "We can define the result as the PV minus the load value"
 
 ## Examples
 
