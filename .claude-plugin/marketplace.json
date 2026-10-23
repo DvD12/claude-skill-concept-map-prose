@@ -1,0 +1,21 @@
+{
+  "name": "concept-map-prose",
+  "owner": {
+    "name": "Davide",
+    "email": "dvd1202@gmail.com"
+  },
+  "metadata": {
+    "description": "Writing conventions that turn prose into a concept network: hierarchical bullets, conclusion first, worked examples, no codas."
+  },
+  "plugins": [
+    {
+      "name": "concept-map-prose",
+      "description": "Writing conventions that turn prose into a concept network: hierarchical bullets, conclusion first, worked examples, no codas.",
+      "source": "./",
+      "strict": false,
+      "license": "MIT",
+      "homepage": "https://github.com/DvD12/claude-skill-concept-map-prose",
+      "skills": ["./"]
+    }
+  ]
+}

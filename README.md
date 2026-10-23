@@ -23,7 +23,14 @@ This is not a brevity rule. A long document in this style is fine; what it remov
 
 ## Install
 
-Clone into your personal skills directory, with the directory name matching the skill name:
+Install as a plugin from this repository's marketplace:
+
+```
+/plugin marketplace add DvD12/claude-skill-concept-map-prose
+/plugin install concept-map-prose@concept-map-prose
+```
+
+Or clone into your personal skills directory, with the directory name matching the skill name:
 
 ```bash
 git clone https://github.com/DvD12/claude-skill-concept-map-prose.git ~/.claude/skills/concept-map-prose
